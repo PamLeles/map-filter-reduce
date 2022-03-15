@@ -1,14 +1,14 @@
 # Map, Filter e Reduce
-Atividade Prática.
-_______
-
--Map
+ Demonstração utilizando tres métodos importantes para arrays.
+___
+## Atividade Prática.
+<p>-Map:
 <p>Pratique a sintaxe de multiplicação de números, uma vez utilizando o parâmetro this de um objeto criado por você, e depois sem ele.
 
--Filter
+-Filter:
 <p>Filtre e retorne todos os números pares de um array.
 
--Reduce
+-Reduce:
 <p>Some todos os números de um array
 Crie uma função que recebe uma lista de preços e um número representando o saldo disponível. Calcule qual será o saldo final após subtrair 
 todos os preços da lista enviada.

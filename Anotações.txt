@@ -1,0 +1,72 @@
+aula de Map, Filter e Reduce
+
+--o que é map?
+
+map cria um novo array, e não modifica o array origial realiza as operações
+em ordem
+
+sintaxe de map
+array.map(callback, thisArg)
+-callback: função a ser executada em cada elemento
+-thisArg(opcional): valor de 'this' dentro da função de callback
+
+--map vs forEach
+
+--sintaxe forEach
+array.forEach(item) = // neste caso
+não retorna valor, por isso irá precisa utilizar esse array dentro 
+de uma const
+
+--diferença entre map e forEach
+valor de retorno
+considerar se precisa de um array par auxiliar
+
+--Filter 
+cria um novo array, não modifica o array original
+
+--sintaxe de filter
+array.filter(callback,thisArg)
+thisArg(opcional)
+
+--Reduce
+executa uma função em todos os elemento do array, retornando um valor único.
+
+--sintaxe do Reduce
+array.reduce(callbackFn, initialValue)
+
+-callback: função a ser executada a partir do acumulador;
+-initialValue(opcional): valor sobre o qual o retorno final irá atuar;
+
+--sintaxe
+const callbckFn = function(accumulator, currentValue, index, array){
+
+}
+array.reduce(callbackFn,InitialValue)
+
+-accumulator/preValue: acumulador de todas as chamadas de callbaackFn;
+-currentValue: elemento atual sendo acessado pela função;
+
+
+
+
+
+
+
+
+
+
+
+
+___________________________________________________________________________________________________________________________________________
+Atividade
+
+-Map
+Pratique a sintaxe de multiplicação de números, uma vez utilizando o parâmetro this de um objeto criado por você, e depois sem ele.
+
+-Filter
+Filtre e retorne todos os números pares de um array.
+
+-Reduce
+Some todos os números de um array
+Crie uma função que recebe uma lista de preços e um número representando o saldo disponível. Calcule qual será o saldo final após subtrair 
+todos os preços da lista enviada.
